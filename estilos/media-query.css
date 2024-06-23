@@ -1,0 +1,82 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    section#login {
+        width: 600px;
+        height: 300px;
+    }
+
+    section#login>div#imagem {
+        float: left;
+        width: 240px;
+        height: 300px;
+        background-position: center;
+    }
+
+    section#login>div#formluario {
+        float: rigth;
+        width: 300px;
+    }
+
+    form>input[type=submit] {
+        display: block;
+        width: 240px;
+        margin: auto;
+    }
+
+    form>input[type=submit] {
+        display: block;
+        font-size: 1em;
+        width: 400px;
+        height: 40px;
+        background-color: #49a09d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    div.campo>input {
+        font-size: 1em;
+        border: 0px;
+        height: 100%;
+        border-radius: 8px;
+        padding: 4px;
+        width: 303px;
+        transform: translateY(-15px);
+    }
+
+    form>input[type=submit] {
+        width: 350px;
+        height: 40px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    section#login {
+        width: 950px;
+        height: 350px;
+    }
+
+    section#login>div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+        background-position: center;
+    }
+
+    section#login>div#formulario {
+        float: left;
+        width: 50%;
+
+    }
+}
